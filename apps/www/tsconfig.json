@@ -18,7 +18,9 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "content-collections": ["./.content-collections/generated"]
+      "content-collections": ["./.content-collections/generated"],
+      "next/image": ["node_modules/next/image.js"],
+      "next/link": ["node_modules/next/link.js"],
     },
     "plugins": [
       {
